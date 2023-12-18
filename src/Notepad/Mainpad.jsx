@@ -1,14 +1,14 @@
 import React from 'react'
-import Header from './Header'
 import './Notes.css'
 import NotesSec from './NotesSec'
+import Todo from './Todo'
 
 
 const Mainpad = () => {
   return (
     <div className='notesContainer'>
-      <Header/>
-      <NotesSec/>
+      {/* <NotesSec/> */}
+      <Todo/>
     </div>
   )
 }
