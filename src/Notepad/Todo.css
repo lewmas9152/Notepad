@@ -6,6 +6,16 @@
   border-radius: 0.5rem;
   padding-top: 1.5rem;
   max-width: 85%;
+
+  .delete {
+    display: none;
+  }
+}
+
+.todoSec:hover {
+  .delete {
+    display: block;
+  }
 }
 
 .todos {
@@ -30,4 +40,17 @@ label {
 
 .date {
   align-self: self-end;
+  transform: translateY(2rem);
 }
+
+.delete {
+  position: relative;
+  height: 2rem;
+  width: 2rem;
+  transform: translate3d(2rem, 1px, 0);
+  cursor: pointer;
+  
+}
+
+
+
